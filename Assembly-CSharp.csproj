@@ -54,6 +54,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets\Driver.cs" />
+    <Compile Include="Assets\Collision.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
