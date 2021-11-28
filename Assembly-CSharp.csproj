@@ -53,7 +53,7 @@
     <UnityVersion>2020.3.23f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\PriintToConsole.cs" />
+    <Compile Include="Assets\Driver.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
