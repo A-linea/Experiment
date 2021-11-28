@@ -4,8 +4,13 @@ using UnityEngine;
 
 public class Collision : MonoBehaviour
 {
-    public void OnCollisionEnter2D(Collision2D collision)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
         Debug.Log("collission, ouch");
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        Debug.Log("Triggered, increase speed");
     }
 }
