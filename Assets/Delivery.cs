@@ -30,6 +30,8 @@ public class Delivery : MonoBehaviour
             Destroy(collision.gameObject, destroyDelay);
         }
 
+
+
         if (collision.tag == "Customer" && hasPackage)
         {
             Debug.Log("Customer here");
